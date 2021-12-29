@@ -1,0 +1,105 @@
+body>*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background: url('C:\Users\makaram\Documents\GitHub\Login_form\background_image.jpg');
+
+}
+.container > h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    text-align: center;
+}
+.form{
+    background-color: aliceblue;
+    min-height: 400px;
+    min-width: 200px;
+    max-width: 500px;
+    border-radius: 1.5%;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 0px auto;
+    
+}
+.label{
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 25px;
+}
+.username{
+    padding: 5px;
+    display: block;
+    height: 25px;
+    width: 400px;
+    margin: 20px;
+    border-color: #B4BEC0;
+    border-radius: 5px;
+    
+}
+.password{
+    height: 25px;
+    padding: 5px;
+    display: block;
+    width: 400px;
+    margin: 20px;
+    border-color: #B4BEC0;
+    border-radius: 5px;
+    
+}
+.submit{
+    width: 200px;
+    display: block;
+    padding: 5px;
+    margin: 0px auto;
+    background-color: #B4BEC0;
+    border: none;
+    padding: 15px;
+    color: rgb(3, 3, 3);
+    font-weight: 800;
+    border-radius: 5px;
+}
+.submit:hover{
+    opacity: 0.7;
+}
+.social{
+    padding:0px 20px ;
+}
+.social>p{
+    text-decoration: underline;
+}
+.fa { padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  
+  .fa-google {
+    background: #DE3F32;
+    color: white;
+  }  
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+  .fa-linkedin {
+    
+    background: #007bb5;
+    color: white;
+  }  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
